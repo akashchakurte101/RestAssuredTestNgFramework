@@ -102,4 +102,5 @@ public class PlaylistTests extends BaseTest {
     public void assertStatusCode(int actualStatusCode,StatusCode statuscode){
         assertThat(actualStatusCode,equalTo(statuscode.code));
     }
+
 }
