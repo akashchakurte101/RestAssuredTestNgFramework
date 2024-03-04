@@ -20,7 +20,7 @@ public class SpecBuilder {
                 setContentType(ContentType.JSON).
                 addFilter(new AllureRestAssured()).
                 log(LogDetail.ALL).build();
-
+         // add new line for jenkin run
     }
 
     public static RequestSpecification getAccountRequestSpec(){
