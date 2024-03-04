@@ -20,6 +20,7 @@ public class SpecBuilder {
                 setContentType(ContentType.JSON).
                 addFilter(new AllureRestAssured()).
                 log(LogDetail.ALL).build();
+          // adding line for jenkins gitsm poll
     }
 
     public static RequestSpecification getAccountRequestSpec(){
