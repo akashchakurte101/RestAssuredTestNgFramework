@@ -20,6 +20,7 @@ public class SpecBuilder {
                 setContentType(ContentType.JSON).
                 addFilter(new AllureRestAssured()).
                 log(LogDetail.ALL).build();
+        //line for jenkins
     }
 
     public static RequestSpecification getAccountRequestSpec(){
