@@ -14,8 +14,8 @@ public class SpecBuilder {
     static String access_token="BQCGyxKVVUoc4W8YCJSGK3p03a8Jx0y_170Kxtur-z08ZEtgOZFDIv4tHwz82ZrLdY8QTfKiicPueNhYX9aSELNRgqPq2erfO6gx7sIq80hyQBetb52P2BeeQd4AQ9G348ShqhdKFdAWcYntP9d8gE-_lVuo7dswmCKFG09FlVYhNhageSQAEROpRWmxf9OcRK-9xFyLbDyMpgVLPfmPYdovcLOVUgNStIsOw3f_8bdkzdLCVzmC56vfAE_N6pu1pGgG1CJd94Nh-zju";
     public static RequestSpecification getRequestSpec(){
         return new RequestSpecBuilder().
-                setBaseUri(System.getProperty("BASE_URI")).
-               // setBaseUri("https://api.spotify.com").
+//                setBaseUri(System.getProperty("BASE_URI")).
+                setBaseUri("https://api.spotify.com").
                 setBasePath(BASEPATH).
                 setContentType(ContentType.JSON).
                 addFilter(new AllureRestAssured()).
@@ -24,8 +24,8 @@ public class SpecBuilder {
 
     public static RequestSpecification getAccountRequestSpec(){
         return new RequestSpecBuilder().
-                setBaseUri(System.getProperty("ACCOUNT_BASE_URI")).
-              //  setBaseUri("https://accounts.spotify.com").
+//                setBaseUri(System.getProperty("ACCOUNT_BASE_URI")).
+                setBaseUri("https://accounts.spotify.com").
                 setContentType(ContentType.URLENC).
                 addFilter(new AllureRestAssured()).
                 log(LogDetail.ALL).build();

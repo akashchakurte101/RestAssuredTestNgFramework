@@ -13,6 +13,12 @@ public class TokenManager {
     private static String access_token;
     private static Instant expairy_time;
 
+    // Generate the access toke if the toke is null and it is expaired
+    /*Why Synchronized here This ensures
+    Multiple threads don’t refresh token simultaneously
+    Only one thread renews token
+    Others wait → use same token */
+
     public synchronized static String getAccessToken(){
         try {
             if(access_token==null || Instant.now().isAfter(expairy_time)) {

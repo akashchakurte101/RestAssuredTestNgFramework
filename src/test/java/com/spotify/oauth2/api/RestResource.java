@@ -11,6 +11,14 @@ import static com.spotify.oauth2.api.Route.TOKEN;
 import static com.spotify.oauth2.api.SpecBuilder.*;
 import static io.restassured.RestAssured.given;
 
+/*
+PlaylistApi → WHAT action to perform (create/get/update playlist)
+
+RestResource → HOW the HTTP request is executed
+
+This avoids duplication and improves maintainability */
+
+
 public class RestResource {
     static String access_token="BQCGyxKVVUoc4W8YCJSGK3p03a8Jx0y_170Kxtur-z08ZEtgOZFDIv4tHwz82ZrLdY8QTfKiicPueNhYX9aSELNRgqPq2erfO6gx7sIq80hyQBetb52P2BeeQd4AQ9G348ShqhdKFdAWcYntP9d8gE-_lVuo7dswmCKFG09FlVYhNhageSQAEROpRWmxf9OcRK-9xFyLbDyMpgVLPfmPYdovcLOVUgNStIsOw3f_8bdkzdLCVzmC56vfAE_N6pu1pGgG1CJd94Nh-zju";
     public static Response post(String path,String token,Object object){

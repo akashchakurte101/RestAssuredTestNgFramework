@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee386696-8972-4bb8-98ea-77658628e78f" name="Changes" comment="" />
+    <list default="true" id="ee386696-8972-4bb8-98ea-77658628e78f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/RestResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/RestResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/SpecBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/SpecBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/TokenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/TokenManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/PlaylistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/PlaylistTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2bLq6gCzcmTVYibS3ldlgw8Y6Zo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,10 +32,65 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.RestAssuredFrameWork [clean].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.PlaylistTests.executor": "Run",
+    "TestNG.PlaylistTests.should_get_a_playlist.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Akash",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.PlaylistTests">
+    <configuration name="PlaylistTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFrameWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spotify.oauth2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.spotify.oauth2.tests.PlaylistTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaylistTests.should_get_a_playlist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFrameWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spotify.oauth2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.spotify.oauth2.tests.PlaylistTests" />
+      <option name="METHOD_NAME" value="should_get_a_playlist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.PlaylistTests" />
+        <item itemvalue="TestNG.PlaylistTests.should_get_a_playlist" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

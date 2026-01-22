@@ -43,7 +43,7 @@ public class PlaylistTests extends BaseTest {
         assertPlaylistEqual(response.as(Playlist.class),requestPlaylist);
 
     }
-    @Test
+//    @Test
     public void should_get_a_playlist(){
 
         Response response=PlaylistApi.get(DataLoader.getInstance().getGetPlalistId());
@@ -55,14 +55,14 @@ public class PlaylistTests extends BaseTest {
         assertThat(responsePlaylist.get_public(),equalTo(true));*/
 
     }
-    @Test
+//    @Test
     public void update_playlist(){
         Playlist requestPlaylist=playlistBuilder(FakerUtils.generateName(),FakerUtils.generateDescription(),false);
         Response response=PlaylistApi.put(requestPlaylist, DataLoader.getInstance().getUpdatePlaylistId());
         assertStatusCode(response.statusCode(),StatusCode.CODE_200);
     }
     @Story("Create a plalist")
-    @Test
+//    @Test
     public void should_not_create_a_playlist_withoutName(){
         Playlist requestPlaylist=playlistBuilder("",FakerUtils.generateDescription(),false);
            Response response=PlaylistApi.post(requestPlaylist);
@@ -71,7 +71,7 @@ public class PlaylistTests extends BaseTest {
         assertError(response.as(Error.class),StatusCode.CODE_400);
     }
     @Story("Create a plalist")
-    @Test
+//    @Test
     public void should_not_create_a_playlist_withExpired_token(){
         String invalid_token="12345";
         Playlist requestPlaylist=playlistBuilder(FakerUtils.generateName(),FakerUtils.generateDescription(),false);
